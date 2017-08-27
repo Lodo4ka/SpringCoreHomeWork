@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCore" />
+        <module name="SpringCoreHomeWork" />
+        <module name="SpringCoreHomeWork2" />
+        <module name="SpringCoreHomeWork3" />
+        <module name="SpringCoreHomeWork4" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="SpringCore" target="1.5" />
+      <module name="SpringCoreHomeWork" target="1.5" />
+      <module name="SpringCoreHomeWork2" target="1.5" />
+      <module name="SpringCoreHomeWork3" target="1.5" />
+      <module name="SpringCoreHomeWork4" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
