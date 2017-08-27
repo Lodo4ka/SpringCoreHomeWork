@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SpringCoreHomeWork/SpringCoreHomeWork.iml" filepath="$PROJECT_DIR$/SpringCoreHomeWork/SpringCoreHomeWork.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SpringCore/SpringCoreHomeWork2.iml" filepath="$PROJECT_DIR$/SpringCore/SpringCoreHomeWork2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringCoreHomeWork2/SpringCoreHomeWork2.iml" filepath="$PROJECT_DIR$/SpringCoreHomeWork2/SpringCoreHomeWork2.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCoreHomeWork3/SpringCoreHomeWork3.iml" filepath="$PROJECT_DIR$/SpringCoreHomeWork3/SpringCoreHomeWork3.iml" />
       <module fileurl="file://$PROJECT_DIR$/SpringCoreHomeWork4/SpringCoreHomeWork4.iml" filepath="$PROJECT_DIR$/SpringCoreHomeWork4/SpringCoreHomeWork4.iml" />
     </modules>
