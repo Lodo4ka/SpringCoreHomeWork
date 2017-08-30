@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean name="shoesAmazon" class="pojo.Shoes" scope="prototype">
+        <constructor-arg value="Jordan"/>
+    </bean>
+    <bean name="shoesEbay" class="pojo.Shoes" scope="prototype">
+
+        <constructor-arg value="Porsche"/>
+    </bean>
+
+    <bean name="jacketAmazon" class="pojo.Jacket" scope="prototype">
+        <constructor-arg value="jacketMexx"/>
+    </bean>
+
+
+    <bean name="clothingShop" class="pojo.ClothingShop" scope="prototype">
+
+        <constructor-arg type="java.util.Map">
+            <map>
+                <entry key="Nike" value-ref="shoesAmazon"/>
+                <entry key="Adidas" value-ref="shoesEbay"/>
+            </map>
+        </constructor-arg>
+    </bean>
+
+<bean name="clothingShopsec" class="pojo.ClothingShop" scope="prototype">
+
+    <constructor-arg type="java.util.List">
+        <list>
+            <ref bean="jacketAmazon"/>
+        </list>
+    </constructor-arg>
+
+</bean>
+
+</beans>

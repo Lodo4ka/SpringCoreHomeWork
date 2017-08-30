@@ -12,7 +12,7 @@ public class Client implements Logger {
 
     public Client() {
         this.name = UUID.randomUUID().toString();
-        this.age = age;
+        this.age = Math.abs((byte)(new Random().nextInt()));
     }
 
     public void doEvent() {
