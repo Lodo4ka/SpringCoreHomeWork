@@ -4,10 +4,12 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 import pojo.Client;
 import pojo.ClothingShop;
+import pojo.Jacket;
 import pojo.Store;
 import service.ClientService;
 import service.ShopService;
 
+import java.util.List;
 import java.util.stream.Collectors;
 
 public class EntryPoint {
@@ -22,6 +24,7 @@ public class EntryPoint {
         ClothingShop clothingShopsec = context.getBean("clothingShopsec", ClothingShop.class);
 
         Store store = ctx.getBean("store", Store.class);
+
 
         service.createUser(new Client());
         ctx.close();
