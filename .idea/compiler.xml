@@ -18,7 +18,7 @@
       <module name="SpringCoreHomeWork" target="1.5" />
       <module name="SpringCoreHomeWork2" target="1.8" />
       <module name="SpringCoreHomeWork3" target="1.8" />
-      <module name="SpringCoreHomeWork4" target="1.5" />
+      <module name="SpringCoreHomeWork4" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
