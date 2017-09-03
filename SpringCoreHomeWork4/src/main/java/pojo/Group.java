@@ -1,3 +1,5 @@
+package pojo;
+
 public abstract class Group {
 
     private int number;

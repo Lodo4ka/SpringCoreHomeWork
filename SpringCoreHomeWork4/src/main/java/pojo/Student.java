@@ -1,3 +1,5 @@
+package pojo;
+
 public class Student extends Group{
 
     private String name;
@@ -28,7 +30,7 @@ public class Student extends Group{
 
     @Override
     public String toString() {
-        return "Student{" +
+        return "pojo.Student{" +
                 "name='" + name + '\'' +
                 ", rating=" + rating + ", " +
                 "group=" + getGroup() +
