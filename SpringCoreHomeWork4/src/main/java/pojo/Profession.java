@@ -8,6 +8,8 @@ public class Profession {
         name = student;
     }
 
+
+
     @Override
     public String toString() {
         return "Professional{" +

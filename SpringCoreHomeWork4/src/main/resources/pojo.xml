@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="pojo.Group" name="group" abstract="true"/>
+
+    <bean class="pojo.Students" name="students">
+
+
+        <constructor-arg>
+            <list>
+                <ref bean="student1"></ref>
+                <ref bean="student2"></ref>
+                <ref bean="student3"></ref>
+                <ref bean="student4"></ref>
+            </list>
+        </constructor-arg>
+    </bean>
+    <bean class="pojo.Student" name="student1">
+        <constructor-arg index="0" value="Vasya"/>
+        <constructor-arg index="1" value="90"/>
+        <constructor-arg index="2" value="1"/>
+    </bean>
+
+    <bean class="pojo.Student" name="student2">
+        <constructor-arg index="0" value="Petya"/>
+        <constructor-arg index="1" value="70"/>
+        <constructor-arg index="2" value="2"/>
+    </bean>
+
+    <bean class="pojo.Student" name="student3">
+        <constructor-arg index="0" value="Vova"/>
+        <constructor-arg index="1" value="85"/>
+        <constructor-arg index="2" value="1"/>
+    </bean>
+
+    <bean class="pojo.Student" name="student4">
+        <constructor-arg index="0" value="Amiran"/>
+        <constructor-arg index="1" value="90"/>
+        <constructor-arg index="2" value="2"/>
+    </bean>
+
+    <bean class="pojo.Profession" name="profession">
+        <constructor-arg value=""/>
+    </bean>
+
+
+
+</beans>
